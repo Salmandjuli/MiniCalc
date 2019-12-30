@@ -153,7 +153,6 @@ sleep 3
 echo
 printf "Ingat pesan saya\n"
 sleep 3
-clear
 vech=Janganlah-suka-meremehkan-orang-lain
 printf "%1.1s\n" $vech
 sleep 1
