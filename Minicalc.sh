@@ -119,9 +119,6 @@ echo -e "\e[1;38m[+] Yang ingin $nama hitung adalah : $pertama $opt $dua =\e[0m"
 sleep 3
 echo
 echo -e "\e[1;38m[+] hasilnya adalah $(( $pertama $opt $dua )) \e[0m"
-sleep 2
-echo -e "\e[1;38m[+]Atau bilangan pecahannya adalah (bila hasilnya pecahan):\e[0m"
-gnome-calculator --solve $pertama$opt$dua
 sleep 5
 clear
 echo
