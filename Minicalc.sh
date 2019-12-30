@@ -118,7 +118,8 @@ echo
 echo -e "\e[1;38m[+] Yang ingin $nama hitung adalah : $pertama $opt $dua =\e[0m"
 sleep 3
 echo
-echo -e "\e[1;38m[+] hasilnya adalah $(( $pertama $opt $dua )) \e[0m"
+echo -e "\e[1;38m[+] hasilnya adalah : \e[0m"
+python -c "print $pertama$opt float($dua)"
 sleep 5
 clear
 echo
