@@ -120,8 +120,7 @@ sleep 3
 echo
 echo -e "\e[1;38m[+] hasilnya adalah : \e[0m"
 python -c "print $pertama$opt float($dua)"
-sleep 5
-clear
+sleep 7
 echo
 echo -e "\e[1;32mHidup tak selamanya indah, kadang baik, kadang buruk, kadang naik, kadang terpuruk, kadang mudah, kadang susah.\e[0m"
 sleep 3
